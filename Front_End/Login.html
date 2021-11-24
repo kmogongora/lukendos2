@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo pestaña  -->
+    <title>CUENTOMISLUKAS.COM/LOGIN</title>
+    <!-- añadir logo  -->
+    <link rel="icon" href="imagenes_cuida/logopequeño.jpg" type="image/jpg">
+    <link rel="stylesheet" href="EstilosLog.css">
+</head>
+<body>
+    <div class="login-wrap">
+        <div class="login-html">
+          <!-- cracion de dos tablas una de ingreso y otra de registro   -->  
+          <!-- ingreso -->
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Ingresar </label>
+            <!-- registro  -->
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">inscribirse</label>
+           
+          <!-- creacion formulario  -->
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <!-- Usurio  -->
+                    <div class="group">
+                        <label for="Usurio" class="label">Usuario</label>
+                        <input id="Usurio" name="Usiario" type="text" class="input">
+                    </div>
+                    <!-- Contraseña  -->
+                    <div class="group">
+                        <label for="pass" class="label">Clave de Acceso</label>
+                        <input id="pass" name="pass" type="password" class="input" data-type="password">
+                    </div>
+                     <!--Mantenme registrado -->
+                    <div class="group">
+                        <input id="check" type="checkbox" class="check" checked>
+                        <label for="check"><span class="icon"></span> Mantenerme registrado</label>
+                    </div>
+                     <!--  boton ingresar  -->
+                    <div class="group">
+                        <input type="submit" class="button" value="Ingresar">
+                    </div>
+                    <!-- logo -->
+                    <div class="container-logo"> <img class="logo" src="imagenes_cuida/logopequeño.jpg" alt=""></div>
+                    <div class="hr"></div>
+                    <!--  olvidaste tu Contraseña  -->
+                    <div class="foot-lnk">
+                           
+                        <a href="#forgot">OLVIDASTE TU CLAVE DE ACCESO?</a>
+                         
+                    </div>
+                </div>
+                <!-- inicio tabla de REGISTRO-->
+
+                <div class="sign-up-htm">
+                    <!-- DOCUMENTO  -->
+                    <div class="group">
+                        <label for="Documento" class="label">Documento</label>
+                        <input id="Documento" name="Documento"type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="Nombre Completo" class="label">Nombre Completo</label>
+                        <input id="Nombre Completo" name="Nombre Completo" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="Fecha de Nacimiento" class="label">Fecha de Nacimiento </label>
+                        <input id="Fecha de Nacimiento" name="Fecha de Nacimiento" type="date" class="input">
+                    </div>
+                    <!-- Genero -->
+                    <div class="group">
+                        <label for="Genero" class="label">Genero</label>
+                        <div class="radio"> <input type="radio"class="Genero" name=Genero id="Mujer">
+                            <label for="Mujer">MUJER</label>
+                            <input type="radio" class="Genero" name=Genero id="Hombre">
+                            <label for="Hombre">HOMBRE</label>
+                            <input type="radio" class="Genero" name=Genero id="Otro">
+                            <label for="Otro">OTRO</label></div>
+                    </div>
+                    
+                  <!-- correo electronico -->
+                  <div class="group">
+                    <label for="Correo Electronico" class="label">Correo Electronico</label>
+                    <input id="Correo Electronico" name="Correo Electronico" type="text" class="input">
+                </div>
+                
+                 <div class="group">
+                    <label for="Nombre de Usurio" class="label">Nombre de Usurio</label>
+                    <input id="Nombre de Usurio" name="Nombre de Usurio" type="text" class="input">
+                </div>
+                
+                        <!-- contraseña   -->
+                    <div class="group">
+                        <label for="pass" class="label">Clave de Acceso</label>
+                        <input id="pass" type="password" name="pass" class="input" data-type="password">
+                    </div>
+                    
+                   
+                    <!-- boton inscribirse  -->
+                    <div class="group">
+                        <input type="submit" class="button" value="inscribirse">
+                    </div>
+                     <!-- linea separadora -->
+                    <div class="hr"></div>
+                     <!-- ya estas registrado -->
+                    <div class="foot-lnk">
+                        <label for="tab-1">YA ESTAS REGISTRADO?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
