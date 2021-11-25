@@ -53,7 +53,7 @@
                     <!--<a class="header-menu-number" href="#4">5</a>-->
                 </li>
                 <li>
-                    <a class="header-menu-tab" href="#5"><span class="fas fa-bullseye"></span> METAS</a>
+                    <a class="header-menu-tab" href="/mavenproject4/metas.jsp"><span class="fas fa-bullseye"></span> METAS</a>
                 </li>
                 <li>
                     <a class="header-menu-tab" href="#5"><span class="fas fa-user-cog"></span> CONFIGURACIÓN</a>
