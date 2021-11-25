@@ -201,6 +201,10 @@
                                     <label>Días Restantes: </label> <span><%= diasRestantes %></span> <br>
                                     <label>Dinero Ahorrado: </label> <span>$<%= df.format(goals.getValorParcial())%></span> <label>de </label> <span>$<%= df.format(goals.getValorTotal())%></span>
                                 </div>
+                                <div class="media-body text-right">
+                                    <a href="metas.jsp?accion=editar&id=<%= goals.getId()%>"><button type="button" class="btn btn-outline-info"><i class="fas fa-pencil-alt"></i></button></a>
+                                    <a href="eliminacionMetas.jsp?id=<%= goals.getId()%>"><button type="button" class="btn btn-outline-danger"><i class="far fa-trash-alt"></i></button></a>
+                                </div>
                             </div>
                             <%
                                 DecimalFormat porciento = new DecimalFormat("##.#");
