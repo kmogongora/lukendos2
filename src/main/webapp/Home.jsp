@@ -146,7 +146,7 @@
                                 <br>
                                 <div class="progress">
                                     <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: <% out.print(egresoBarra); %>%" aria-valuenow="<%out.print(egresoBarra); %>" aria-valuemin="0" aria-valuemax="100">EGRESOS <% out.print(E_B_F.format(egresoBarra)); %>%</div>
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">INGRESOS</div>
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">INGRESOS</div>
                                 </div>  
 
                             </table>
@@ -250,10 +250,7 @@
                             </thead>
 
                             <tbody>
-                                <% if (isDate
-
-                                
-                                    ) { %>
+                                <% if (isDate) { %>
                                 <% for (Ingreso spend : ingres.getLista()) {%>
                                 <tr>
                                 <tr>
